@@ -1,7 +1,16 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+
 h2 {
     color: white;
 }
 
-class .welcome {
+.welcome {
     background-color: blueviolet;
 }
