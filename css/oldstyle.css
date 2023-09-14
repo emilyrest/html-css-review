@@ -1,0 +1,70 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: nunito;
+    color: white;
+    line-height: 1.5;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: auto;
+    height: auto;
+    margin-bottom: auto;
+    margin-top: auto;
+    background-color: black;
+    color: #cfbbd9;
+}
+
+header ul a {
+    color: #cfbbd9;
+    text-decoration: none;
+    border: 2px solid black;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+header ul li {
+    display: inline;
+}
+
+section.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    height: auto;
+    overflow: hidden;
+}
+
+section.hero h1{
+    width: 75%;
+    color: black;
+    text-align: center;
+}
+
+#intro {
+    background-color: #7251b5;
+}
+
+#fan-fav {
+    background-color: black;
+    color: #7251b5;
+}
+
+#team {
+    background-color: #7251b5;
+}
+
+#footer {
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
