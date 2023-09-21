@@ -14,17 +14,26 @@ body {
     margin: 0 auto;
 }
 
-/* headings - come back to next class */
+h1, h2 {
+    font-family: 'Wix Madefor Display';
+}
 
+h1 {
+    font-size: 50pt;
+    text-transform: uppercase;
+    text-shadow: 4px 4px 10px #808080;
+}
+
+h2 {
+    font-size: 25pt;
+}
 
 #company-name {
     color: #dec9b9;
     font-size: 1.5rem;
 }
 
-#intro,
-#fan-fav,
-#team {
+#intro, #fan-fav, #team {
     padding: 4em 0;
 }
 
@@ -47,14 +56,12 @@ nav ul li {
     background-color: #000;
 }
 
-nav ul li a:link,
-nav ul li a:visited {
+nav ul li a:link, nav ul li a:visited {
     color: #dec9b9;
     text-decoration: none;
 }
 
-nav ul li a:hover,
-nav ul li a:focus {
+nav ul li a:hover, nav ul li a:focus {
     color: #fff;
 }
 
@@ -98,8 +105,7 @@ nav ul li a:focus {
     background-color: #7251b5;
 }
 
-#team h2,
-.team-intro {
+#team h2, .team-intro {
     max-width: 40%;
     margin: 0 auto;
     text-align: center;
@@ -128,6 +134,7 @@ nav ul li a:focus {
 .team-grid h3 {
     text-transform: uppercase;
     margin-bottom: 0;
+    font-family: 'Wix Madefor Display';
 }
 
 .team-grid article p {
